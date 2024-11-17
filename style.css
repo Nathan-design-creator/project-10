@@ -1,0 +1,54 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cadetblue;
+}
+
+h1 {
+    color: rgb(213, 236, 250);
+}
+
+/* Advanced Selector: Child Selector*/
+ul>li {
+    font-weight: bold;
+}
+
+/* Advanced Selector:  Sibling Selector*/
+h2+p {
+    background-color: rgb(80, 113, 116);
+}
+
+/* Pseudo Class: hover */
+ul li:hover {
+    color: lightskyblue;
+}
+
+/* Pseudo Class: nth-child */
+ul li:nth-child(1) {
+    background-color: rgb(100, 131, 141);
+}
+
+ul li:nth-child(3) {
+    background-color: rgb(100, 131, 141);
+}
+
+ul li:nth-child(5) {
+    background-color: rgb(100, 131, 141);
+}
+
+/* Pseudo Elements: first-letter */
+p::first-letter {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: rgb(23, 29, 31);
+    text-decoration: solid;
+    background-color:rgb(100, 131, 141); 
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(104, 7, 7);
+}
+
